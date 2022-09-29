@@ -1,5 +1,6 @@
 type todoType = {
   text: string;
+  checked: boolean;
   id: string;
 };
 

@@ -1,13 +1,14 @@
-import React from "react";
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
+import "./App.css";
+import { Container } from "./components/styles";
 
 function App() {
   return (
-    <div>
+    <Container>
       <TodoForm />
       <TodoList />
-    </div>
+    </Container>
   );
 }
 
